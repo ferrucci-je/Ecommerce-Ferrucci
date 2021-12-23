@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import { NuevoModulo } from './NuevoModulo'
 
 function App() {
   return (
@@ -7,7 +8,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+        Alumno: Jonathan Ferrucci</p>
+        <p>
+        Curso: Coderhouse - React2021
         </p>
         <a
           className="App-link"
@@ -15,11 +18,13 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Aprendiendo . . .
         </a>
       </header>
+      <NuevoModulo/>
     </div>
   );
+  
 }
 
 export default App;
