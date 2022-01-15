@@ -1,10 +1,37 @@
 
+  nav {
+    display: flex;
+    background-color: #282c34;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+
 .navbar {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     list-style: none;
     padding: 1rem;
     font-weight: bold;
-    background-color: #282c34;
+  }
+
+.navbar li {
+  padding: 0.5em;
+}
+
+  svg {
+    width: 4em;
+    height: 4em;
+    min-width: 70px;
+    min-height: 70px;
+  }
+
+  .button-nav {
+    border-radius: 40%;
+    border-style: none;
+    font-size: 0.75rem;
+    margin: 0.75em;
+    padding: 0.25em;
+    font-weight: bold;
   }
