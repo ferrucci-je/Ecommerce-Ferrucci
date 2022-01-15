@@ -1,3 +1,4 @@
+@import url('./MyComponentsClass/cartwidget.css');
 
   nav {
     display: flex;
@@ -27,11 +28,20 @@
     min-height: 70px;
   }
 
+  .button-cont {
+    margin: 1em;
+    display: flex;
+  }
+
   .button-nav {
-    border-radius: 40%;
+    border-radius: 20%;
     border-style: none;
     font-size: 0.75rem;
     margin: 0.75em;
     padding: 0.25em;
     font-weight: bold;
+  }
+
+  .carritoDeCompras {
+    width: 30px;    
   }

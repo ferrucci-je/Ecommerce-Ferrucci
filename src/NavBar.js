@@ -1,4 +1,5 @@
 import React from "react"
+import { CartWidget } from "./MyComponentsClass/cartwidget"
 
 export const NavBar = () => {
     return (
@@ -10,8 +11,11 @@ export const NavBar = () => {
         <li>Sección III</li>
         <li>Sección IV</li>
     </ul>
-    <button className="button-nav">Ingresar</button>
-    <button className="button-nav">Registrate</button>
+    <div className="button-cont">
+        <button className="button-nav">Ingresar</button>
+        <button className="button-nav">Registrate</button>
+    </div>
+    <CartWidget />
     </nav>
     )
 }
